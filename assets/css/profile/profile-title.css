@@ -1,0 +1,7 @@
+.profile__title{
+    color: var(--lighter);
+    font-family: var(--inter), sans-serif;
+    font-weight: 700;
+    font-size: 2.0725rem;
+    text-align: center;
+}

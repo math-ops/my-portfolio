@@ -1,0 +1,9 @@
+.profile__list{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    font-size: 22px;
+    margin-top: 13%;
+    margin-right: 5%;
+    margin-left: -5%;
+}

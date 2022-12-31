@@ -1,0 +1,10 @@
+.profile__container{
+    background: var(--background);
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 4%;
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 50vh;
+    border-radius: 15px;
+}

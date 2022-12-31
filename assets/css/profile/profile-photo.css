@@ -1,0 +1,11 @@
+.profile__photo {
+    background: url('../../img/profile.jpg') no-repeat center/ cover ;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-left: 20%;
+    left: 22%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    position: relative;
+}

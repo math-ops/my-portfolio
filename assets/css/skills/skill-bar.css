@@ -1,0 +1,33 @@
+.skill__bar--html{
+    width: 100%;
+    height: 24px;
+    background-color: var(--secondary);
+    border-radius: 3px;
+    text-align: center;
+}
+
+.skill__bar--js{
+    width: 75%;
+    height: 24px;
+    background-color: var(--secondary);
+    border-radius: 3px;
+    text-align: center;
+}
+.skill__bar--sql{
+    width: 60%;
+    height: 24px;
+    background-color: var(--secondary);
+    border-radius: 3px;
+    text-align: center;
+}
+.skill__bar--git{
+    width: 100%;
+    height: 24px;
+    background-color: var(--secondary);
+    border-radius: 3px;
+    text-align: center;
+}
+
+.skill__percent {
+    color: var(--light);
+}

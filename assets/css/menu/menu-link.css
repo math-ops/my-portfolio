@@ -1,0 +1,19 @@
+.menu__link {
+    color: var(--light);
+    margin-right: 1.25rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.menu__link--active{
+    color: var(--secondary);
+    font-weight: bold;
+}
+
+.menu__link:last-child {
+    margin-right: none;
+}
+
+.menu__link:hover{
+    text-decoration: underline;
+}

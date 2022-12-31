@@ -1,0 +1,7 @@
+.skill__progress {
+    border: 1px var(--dark);
+    background: var(--primary);
+    width:  350px;
+    height: 24px;
+    border-radius: 3px;
+}

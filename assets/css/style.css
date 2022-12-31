@@ -1,0 +1,20 @@
+:root {
+    --primary: #14141E;
+    --background: #1C1B29;
+    --secondary: #0EBC52;   
+    --light: #FFFFFF;
+    --dark: #333333;
+    --lighter: #ECECEC;
+    --darker: #000000;
+
+    --inter: 'Inter', sans-serif;
+    --roboto: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #333;
+    font-family: var(--roboto);
+    font-weight: 600;
+    overflow: scroll;
+}
+

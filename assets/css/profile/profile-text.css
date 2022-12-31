@@ -1,0 +1,8 @@
+.profile__text {
+    color: var(--light);
+    font-family: var(--roboto), sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
