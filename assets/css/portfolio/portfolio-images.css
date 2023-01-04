@@ -1,0 +1,45 @@
+.codexao{
+    background: url('/assets/img/projects/CodexaoLogo.png') no-repeat center / cover;
+    width: 280px;
+    height: 120px;
+}
+.pokedex{
+    background: url('/assets/img/projects/Logo.png') no-repeat center / cover;
+    width: 270px;
+    height: 100px;
+}
+.movie-search{
+    background: url('/assets/img/projects/MovieSearchLogo.png') no-repeat center;
+    width: 400px;
+    height: 120px;
+}
+.vacinometro{
+    background: url('/assets/img/projects/VacineIMG.png') no-repeat center / cover;
+    width: 280px;
+    height: 160px;
+}
+.portal-scrap{
+    background: url('/assets/img/projects/portal.jpg') no-repeat center / cover;
+    width: 280px;
+    height: 160px;
+}
+.ehs-fire{
+    background: url('/assets/img/projects/EHS.jpg') no-repeat center / cover;
+    width: 280px;
+    height: 160px;
+}
+.ssd-frontend{
+    background: url('/assets/img/projects/sheets.jpg') no-repeat center / cover;
+    width: 280px;
+    height: 160px;
+}
+.flex-picote{
+    background: url('/assets/img/projects/picote.jpg') no-repeat center / cover;
+    width: 280px;
+    height: 160px;
+}
+.qr-gen{
+    background: url('/assets/img/projects/QRCodeLogo.png') no-repeat center / cover; 
+    width: 160px;
+    height: 160px;   
+}

@@ -1,0 +1,6 @@
+.portfolio {
+    background: var(--background);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}

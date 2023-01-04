@@ -1,0 +1,9 @@
+Codexão: Projeto elaborado como TCC no curso Técnico de Desenvolvimento de Sistemas realizado no CETAM, o projeto tinha como objetivo ser um clone do github onde os alunos da instituição poderiam compartilhar seus projetos dos cursos e procurar novos projetos para colaborar.
+Pokedex: Primeiros estudos utilizando ReactJs e Bootstrap, onde foi recriado utilizando a API de Pokémon para criar uma Pokedex, que tem como objetivo mostrar as informações dos pokémons
+MovieSearch: Projeto elaborado com o intuito de estudar a parte de API Request, feito html/css/js e utilizando a API da OMDB para realizar requisições de informações sobre filmes e séries
+Vacinometro: Projeto baseado no Vacinometro de Manaus, elaborado para exibir o número de funcionários vacinados das filiais de Manaus, Sorocaba e Jaguariuna.
+Portal Scrap: Site criado para acompanhar a quantidade de componentes inuitilizados na produção, feito em ReactJse utilizando a biblioteca de ChartsJs
+EHS Fire: Consiste numa inovação para o controle e auditoria de extintores no ecossistema Flex Manaus, a mesma é totalmente digital podendo ser utilizada via Browser de Computadores, Celulares e Tablets, assim facilitando o uso da ferramenta por toda equipe de brigadistas.
+SSD Frontend: Site onde é realizado o Upload de arquivos que alimentam um relatório onde são exibidos os dados de produção para aqueles materiais.
+Flex Picote: Site onde é realizado o Upload de arquivos que alimentam um relatório onde são exibidos os dados de produção para aqueles materiais.
+QR Generator: Site onde conseguimos converter textos e links em um QR Code que pode ser salvo e enviado.

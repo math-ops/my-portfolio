@@ -33,6 +33,14 @@
     <link rel="stylesheet" href="/assets/css/skills/skills-title.css">
     <link rel="stylesheet" href="/assets/css/skills/skill-progress.css">
     <link rel="stylesheet" href="/assets/css/skills/skill-bar.css">
+    <link rel="stylesheet" href="/assets/css/portfolio.css">
+    <link rel="stylesheet" href="/assets/css/portfolio/portfolio-area.css">
+    <link rel="stylesheet" href="/assets/css/portfolio/portfolio-title.css">
+    <link rel="stylesheet" href="/assets/css/portfolio/portfolio-grid.css">
+    <link rel="stylesheet" href="/assets/css/portfolio/portfolio-project.css">
+    <link rel="stylesheet" href="/assets/css/portfolio/portfolio-images.css">
+    <link rel="stylesheet" href="/assets/css/portfolio/portfolio-project-title.css">
+    <link rel="stylesheet" href="/assets/css/portfolio/portfolio-project-text.css">    
     <title>Matheus Oliveira</title>
 </head>
 
@@ -41,8 +49,8 @@
         <nav class="menu">
             <ul class="menu__list">
                 <li class="menu__item"><a class="menu__link menu__link--active" href="#">HOME</a></li>
-                <li class="menu__item"><a class="menu__link" href="#">SOBRE</a></li>
-                <li class="menu__item"><a class="menu__link" href="#">PORTIFOLIO</a></li>
+                <li class="menu__item"><a class="menu__link" href="#sobre">SOBRE</a></li>
+                <li class="menu__item"><a class="menu__link" href="#portfolio">PORTIFOLIO</a></li>
                 <li class="menu__item"><a class="menu__link" href="#">ROADMAP</a></li>
                 <li class="menu__item"><a class="menu__link" href="#">CONTATO</a></li>
             </ul>
@@ -55,7 +63,7 @@
             <h2 class="banner__subtitle">Desenvolvedor Frontend Jr / Técnico de Suporte</h2>
         </section>
     </main>
-    <section class="profile">
+    <section id="sobre" class="profile">
         <div class="profile__text__box">
             <h2 class="profile__title">ABOUT ME</h2>
             <p class="profile__text">Olá, me chamo Matheus, tenho 24 anos, natural de Manaus-AM. A mais de 4 anos venho
@@ -102,28 +110,75 @@
         </div>
     </section>
 
-    <section portfolio>
-        <div>
-            <p>Abaixo, alguns projetos que desenvovi durante meus estudos e que lembrei de postar no meu GITHUB</p>
-            <div>
-                <img src="" alt="Codexão">
-                <small>penquena descrição do projeto</small>
-                <img src="" alt="Pokedex">
-                <small>penquena descrição do projeto</small>
-                <img src="" alt="MovieSearch">
-                <small>penquena descrição do projeto</small>
-                <img src="" alt="Vacinometro">
-                <small>penquena descrição do projeto</small>
-                <img src="" alt="Sheets Upload">
-                <small>penquena descrição do projeto</small>
-                <img src="" alt="Picote Control">
-                <small>penquena descrição do projeto</small>
-                <img src="" alt="EHS Fire">
-                <small>penquena descrição do projeto</small>
-                <img src="" alt="Portal TML">
-                <small>penquena descrição do projeto</small>
-                <img src="" alt="QR Code Generator">
-                <small>penquena descrição do projeto</small>
+    <section id="portfolio" class="portfolio">
+        <div class="portfolio__area">
+            <h2 class="portfolio__title">Abaixo, alguns projetos que desenvovi durante meus estudos e que lembrei de postar
+                no GITHUB</h2>
+            <div class="portfolio__grid">
+                <div class="portfolio__project">
+                    <div class="codexao"></div>
+                    <a href="#" class="portfolio__project__title">Codexão: </a><h2 class="portfolio__project__text">elaborado como TCC no curso
+                        Técnico de Desenvolvimento de Sistemas realizado no CETAM, o projeto tinha como objetivo ser um
+                        clone do github onde os alunos da instituição poderiam compartilhar seus projetos dos cursos e
+                        procurar novos projetos para colaborar.</h2>
+    
+                </div>
+                <div class="portfolio__project">
+                    <div class="pokedex"></div>
+                    <a href="#" class="portfolio__project__title">Pokédex: </a><h2 class="portfolio__project__text">Primeiros estudos utilizando ReactJs e
+                        Bootstrap, onde foi recriado utilizando a API de Pokémon para criar uma Pokedex, que tem como
+                        objetivo mostrar as informações dos pokémons.</h2>
+    
+                </div>
+                <div class="portfolio__project">
+                    <div class="movie-search"></div>
+                    <a href="#" class="portfolio__project__title">MovieSearch: </a><h2 class="portfolio__project__text">Projeto elaborado com o intuito de
+                        estudar a parte de API Request, feito html/css/js e utilizando a API da OMDB para realizar
+                        requisições de informações sobre filmes e séries.</h2>
+    
+                </div>
+                <div class="portfolio__project">
+                    <div class="vacinometro"></div>
+                    <a href="#" class="portfolio__project__title">Vacinometro: </a><h2 class="portfolio__project__text">Projeto baseado no Vacinometro de
+                        Manaus, elaborado para exibir o número de funcionários vacinados das filiais de Manaus, Sorocaba e
+                        Jaguariuna.</h2>
+    
+                </div>
+                <div class="portfolio__project">
+                    <div class="portal-scrap"></div>
+                    <a href="#" class="portfolio__project__title">Portal Scrap*: </a><h2 class="portfolio__project__text">Site criado para acompanhar a
+                        quantidade de componentes inuitilizados na produção, feito em ReactJse utilizando a biblioteca de
+                        ChartsJs.</h2>
+    
+                </div>
+                <div class="portfolio__project">
+                    <div class="ehs-fire"></div>
+                    <a href="#" class="portfolio__project__title">EHS Fire*: </a><h2 class="portfolio__project__text">Consiste numa inovação para o
+                        controle e auditoria de extintores no ecossistema Flex Manaus, a mesma é totalmente digital podendo
+                        ser utilizada via Browser de Computadores, Celulares e Tablets, assim facilitando o uso da
+                        ferramenta por toda equipe de brigadistas.</h2>
+    
+                </div>
+                <div class="portfolio__project">
+                    <div class="ssd-frontend"></div>
+                    <a href="#" class="portfolio__project__title">SSD Frontend: </a><h2 class="portfolio__project__text">Site onde é realizado o Upload de
+                        arquivos que alimentam um relatório onde são exibidos os dados de produção para aqueles
+                        materiais.</h2>
+    
+                </div>
+                <div class="portfolio__project">
+                    <div class="flex-picote"></div>
+                    <a href="#" class="portfolio__project__title">Flex Picote: </a><h2 class="portfolio__project__text">Site onde é realizado o Upload de
+                        arquivos que alimentam um relatório onde são exibidos os dados de produção para aqueles
+                        materiais.</h2>
+    
+                </div>
+                <div class="portfolio__project">
+                    <div class="qr-gen"></div>
+                    <a href="#" class="portfolio__project__title">QR Generator: </a><h2 class="portfolio__project__text"> Site onde conseguimos converter
+                        textos e links em um QR Code que pode ser salvo e enviado.</h2>
+    
+                </div>
             </div>
         </div>
     </section>

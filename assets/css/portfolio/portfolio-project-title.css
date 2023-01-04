@@ -1,0 +1,8 @@
+.portfolio__project__title {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--secondary);
+    font-size: 20px;
+    font-family: var(--inter);
+    cursor: none;
+}

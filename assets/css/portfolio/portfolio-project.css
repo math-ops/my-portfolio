@@ -1,0 +1,13 @@
+.portfolio__project{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #EEEEEE;
+    border-radius: 5px;
+    height: 250px;
+}
